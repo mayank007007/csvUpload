@@ -1,0 +1,20 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    height: 10rem;
+    background-color: #f8f8f8;
+    border: 2px dashed lightgrey;
+    margin-top: 1.5rem;
+}
+.upload-btn {
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: #4b88fd;
+    color:#fff;
+    font-size: 16px;
+    border-radius: 7px;
+}

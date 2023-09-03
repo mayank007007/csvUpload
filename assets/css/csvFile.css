@@ -1,0 +1,36 @@
+.table-container{
+    height: 75vh;
+    overflow-y: scroll;
+    border-bottom: 2px solid #ddd;
+}
+
+.table-container::-webkit-scrollbar {
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    border: 2px solid #ddd;
+}
+
+th,
+td {
+    padding: 0.8rem;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    background-color: #4682b4;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-right: 2px solid #ddd;
+}
+
+td {
+    font-size: 1rem;
+    border: 2px solid #ddd;
+}
